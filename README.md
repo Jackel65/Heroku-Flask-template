@@ -25,15 +25,21 @@ pip freeze > requirements.txt
 4. use git 
 
 > new-item .gitignore
+
 > git init
+
 > git add --all
+
 > git commit -m "text to add to the commit"
 
 5. deploy to heroku
 
 > heroku login
+
 > heroku create
+
 > git remote -v
+
 > git push heroku master
 
 
